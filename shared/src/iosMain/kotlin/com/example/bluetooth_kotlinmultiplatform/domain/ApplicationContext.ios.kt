@@ -1,2 +1,3 @@
-package com.example.bluetooth_kotlinmultiplatform.domain 
+package com.example.bluetooth_kotlinmultiplatform.domain
 
+actual class ApplicationContext

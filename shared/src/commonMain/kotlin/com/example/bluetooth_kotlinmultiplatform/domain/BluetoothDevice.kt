@@ -1,4 +1,4 @@
-package com.example.bluetooth_kotlinmultiplatform.data
+package com.example.bluetooth_kotlinmultiplatform.domain
 
 typealias BluetoothDeviceDomain = BluetoothDevice
 
