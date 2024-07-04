@@ -2,15 +2,13 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.compose.compiler)
-    id("kotlin-kapt")
-    id("dagger.hilt.android.plugin")
 }
 
 android {
-    namespace = "com.example.bluetooth_kotlinmultiplatform.android"
+    namespace = "com.example.testbluetooth.android"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.example.bluetooth_kotlinmultiplatform.android"
+        applicationId = "com.example.testbluetooth.android"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -44,10 +42,6 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
     debugImplementation(libs.compose.ui.tooling)
-
-    implementation("com.google.dagger:hilt-android:2.42")
-    kapt("com.google.dagger:hilt-android-compiler:2.42")
-    kapt("androidx.hilt:hilt-compiler:1.0.0")
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 }

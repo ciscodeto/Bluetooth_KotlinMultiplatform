@@ -1,4 +1,4 @@
-package com.example.bluetooth_kotlinmultiplatform
+package com.example.testbluetooth
 
 class Greeting {
     private val platform: Platform = getPlatform()

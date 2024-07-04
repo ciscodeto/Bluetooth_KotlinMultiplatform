@@ -1,4 +1,4 @@
-package com.example.bluetooth_kotlinmultiplatform
+package com.example.testbluetooth
 
 interface Platform {
     val name: String

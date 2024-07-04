@@ -1,3 +1,0 @@
-package com.example.bluetooth_kotlinmultiplatform.domain
-
-expect class ApplicationContext

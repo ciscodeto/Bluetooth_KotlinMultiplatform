@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Bluetooth_KotlinMultiplatform"
+rootProject.name = "TestBluetooth"
 include(":androidApp")
 include(":shared")

@@ -1,4 +1,4 @@
-package com.example.bluetooth_kotlinmultiplatform.android
+package com.example.testbluetooth.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
